@@ -1,0 +1,13 @@
+name: assets
+
+services:
+  assets:
+    container_name: util-assets
+    build:
+      dockerfile: Dockerfile
+    networks:
+      - gamma-network
+
+networks:
+  gamma-network:
+    external: true
