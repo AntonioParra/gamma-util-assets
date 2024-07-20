@@ -1,8 +1,8 @@
-name: assets
+name: gamma-assets
 
 services:
   assets:
-    container_name: util-assets
+    container_name: gamma-util-assets
     build:
       dockerfile: Dockerfile
     networks:
